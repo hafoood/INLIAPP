@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-URL = "https://www.inli.fr/locations/offres/val-doise-departement_d:95"
+URL = "https://www.inli.fr/locations/offres/essonne-departement_d:91"
 BUDGET_MAX = 950
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
