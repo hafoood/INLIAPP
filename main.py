@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 URL = "https://www.inli.fr/locations/offres/essonne-departement_d:91"
-BUDGET_MAX = 950
+BUDGET_MAX = 850
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
